@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px 0;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.todo {
+  list-style: none;
+}
+
+.todo span {
+  padding: 2px 5px;
+  background: #e0e0e0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+li {
+  padding: 5px 0px;
+  margin: 15px;
+}
+
+.day {
+  background: #fff;
+  color: #222;
+}
+
+.night {
+  background: #222;
+  color: #fff;
+}
