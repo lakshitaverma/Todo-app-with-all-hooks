@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 
-export default function TodoInput(props) {
+import TextField from '@material-ui/core/TextField';
+
+function TodoInput(props) {
   const [todoInput, setTodoInput] = useState("");
   const { handleAddTodo } = props;
 
   return (
-    <input
-      placeholder="ex. drink milk"
+    <TextField
+      required
+      id="outlined-required"
+      label="Add new todo"
+      variant="outlined"
       value={todoInput}
+      style={{background: '#e0e0e0'}}
       onChange={e => {
         setTodoInput(e.target.value);
       }}
@@ -20,3 +26,5 @@ export default function TodoInput(props) {
     />
   );
 }
+
+export default TodoInput;
