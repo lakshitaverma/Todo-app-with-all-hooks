@@ -6,7 +6,7 @@ Project Architecture -
 
 public - 
   - index.html
-src 
+src -
   - index.js
   - actions
     - index.js
