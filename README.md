@@ -1,4 +1,4 @@
-# Todo-app-with-all-hooks
+# React Todo App wihh all hooks
 
 Todo app with clean architecture and all hooks like useState, useContext, useReducer, useEffect
 
